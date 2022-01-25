@@ -1,0 +1,245 @@
+{
+	"side_menu": {
+		"quick_pick_btn": {
+			"fontFamily": "RobotoCondensedRegular_",
+			"fontSize": "26px",
+			"fill": ["#ffffff"]
+		},
+		"clear_card_btn": {
+			"fontFamily": "RobotoCondensedRegular_",
+			"fontSize": "26px",
+			"fill": ["#ffffff"]
+		},
+		"coin_value_btn": {
+			"label": {
+				"fontFamily": "RobotoCondensedRegular_",
+				"fontSize": "26px",
+				"fill": ["#ffffff"],
+				"align": "center"
+			},
+			"value": {
+				"fontFamily": "RobotoCondensedRegular_",
+				"fontSize": "26px",
+				"fill": ["#ffffff"],
+				"align": "center"
+			}
+		},
+		"bet_amount_btn": {
+			"label": {
+				"fontFamily": "RobotoCondensedRegular_",
+				"fontSize": "26px",
+				"fill": ["#ffffff"],
+				"align": "center"
+			},
+			"value": {
+				"fontFamily": "RobotoCondensedRegular_",
+				"fontSize": "26px",
+				"fill": ["#ffffff"],
+				"align": "center"
+			}
+		},
+		"play_btn": {
+			"fontFamily": "RobotoCondensedRegular_",
+			"fontSize": "35px",
+			"fill": ["#ffffff"]
+		},
+		"autoplay_label": {
+			"fontFamily": "RobotoCondensedRegular_",
+			"fontSize": "14px",
+			"fill": ["#ffffff"],
+			"align": "center"
+		},
+		"autoplay_btn": {
+			"fontFamily": "RobotoCondensedRegular_",
+			"fontSize": "21px",
+			"fill": ["#ffffff"],
+			"align": "center"
+		}
+	},
+	"info_panel": {
+		"picks_label": {
+			"fontFamily": "AhkioRegular_",
+			"fontSize": "36px",
+			"fill": ["#ff3333"],
+			"stroke": "#502c16",
+			"strokeThickness": 4,
+			"miterLimit": 1,
+			"dropShadow": true,
+			"dropShadowAlpha": 0.4,
+			"dropShadowBlur": 0,
+			"dropShadowColor": "#000000",
+			"dropShadowAngle": 2.2,
+			"dropShadowDistance": 1
+		},
+		"picks_value": {
+			"fontFamily": "AhkioRegular_",
+			"fontSize": "36px",
+			"fill": ["#ffff00"],
+			"stroke": "#502c16",
+			"strokeThickness": 4,
+			"miterLimit": 1,
+			"dropShadow": true,
+			"dropShadowAlpha": 0.4,
+			"dropShadowBlur": 0,
+			"dropShadowColor": "#000000",
+			"dropShadowAngle": 2.2,
+			"dropShadowDistance": 1
+		},
+		"credits_label": {
+			"fontFamily": "AhkioRegular_",
+			"fontSize": "36px",
+			"fill": ["#502c16"],
+			"dropShadow": true,
+			"dropShadowAlpha": 1,
+			"dropShadowBlur": 0,
+			"dropShadowColor": "#ffcc8a",
+			"dropShadowAngle": 2.3,
+			"dropShadowDistance": 3
+		},
+		"credits_value": {
+			"fontFamily": "AhkioRegular_",
+			"fontSize": "36px",
+			"fill": ["#ffffff"],
+			"stroke": "#502c16",
+			"strokeThickness": 4,
+			"miterLimit": 1,
+			"padding": 10,
+			"dropShadow": true,
+			"dropShadowAlpha": 0.4,
+			"dropShadowBlur": 0,
+			"dropShadowColor": "#000000",
+			"dropShadowAngle": 2.2,
+			"dropShadowDistance": 1
+		}
+	},
+	"playfield": {
+		"normal_btn": {
+			"font": "Ahkio",
+			"dropshadow": {
+				"enabled": true,
+				"blur": 0,
+				"alpha": 0.48,
+				"distance": 2,
+				"rotation": 130
+			}
+		},
+		"selected_btn": {
+			"font": "Ahkio",
+			"dropshadow": {
+				"enabled": true,
+				"blur": 0,
+				"alpha": 0.48,
+				"distance": 6,
+				"rotation": 130
+			}
+		},
+		"win_not_selected_btn": {
+			"font": "AhkioBrown",
+			"dropshadow": {
+				"enabled": false
+			}
+		}
+	},
+	"popup": {
+		"text": {
+			"fontFamily": "AhkioRegular_",
+			"fontSize": "45px",
+			"fill": ["#502c16"],
+			"align": "center",
+			"wordWrap": true,
+			"wordWrapWidth": 660
+		}
+	},
+	"duck_message": {
+		"fontFamily": "AhkioRegular_",
+		"fontSize": "39px",
+		"fill": ["#462714"],
+		"align": "center",
+		"stroke": "#e3b77b",
+		"strokeThickness": 3,
+		"miterLimit": 1,
+		"wordWrap": true,
+	    "wordWrapWidth": 300,
+	    "lineHeight": 45,
+	    "letterSpacing": 1
+	},
+	"paytable": {
+		"header": {
+			"hit": {
+				"fontFamily": "AhkioRegular_",
+				"fontSize": "38px",
+				"fill": ["#ff3333"],
+				"stroke": "#502c16",
+				"strokeThickness": 4,
+				"miterLimit": 1,
+				"dropShadow": true,
+				"dropShadowAlpha": 0.4,
+				"dropShadowBlur": 0,
+				"dropShadowColor": "#000000",
+				"dropShadowAngle": 2.2,
+				"dropShadowDistance": 1
+			},
+			"pay_rise": {
+				"fontFamily": "AhkioRegular_",
+				"fontSize": "38px",
+				"fill": ["#ffff00"],
+				"stroke": "#502c16",
+				"strokeThickness": 4,
+				"miterLimit": 1,
+				"dropShadow": true,
+				"dropShadowAlpha": 0.4,
+				"dropShadowBlur": 0,
+				"dropShadowColor": "#000000",
+				"dropShadowAngle": 2.2,
+				"dropShadowDistance": 1
+			}
+		},
+		"table_line": {
+			"label": {
+				"fontFamily": "AhkioRegular_",
+				"fontSize": "38px",
+				"fill": ["#ffffff"],
+				"stroke": "#502c16",
+				"strokeThickness": 4,
+				"miterLimit": 1,
+				"dropShadow": true,
+				"dropShadowAlpha": 0.6,
+				"dropShadowBlur": 0,
+				"dropShadowColor": "#000000",
+				"dropShadowAngle": 2.3,
+				"dropShadowDistance": 2
+			},
+			"value": {
+				"fontFamily": "AhkioRegular_",
+				"fontSize": "38px",
+				"fill": ["#ffff00"],
+				"stroke": "#502c16",
+				"strokeThickness": 4,
+				"miterLimit": 1,
+				"dropShadow": true,
+				"dropShadowAlpha": 0.6,
+				"dropShadowBlur": 0,
+				"dropShadowColor": "#000000",
+				"dropShadowAngle": 2.3,
+				"dropShadowDistance": 2
+			}
+		}
+	},
+	"win_label": {
+		"fontFamily": "RobotoCondensedRegular_",
+		"fontSize": "35px",
+		"fill": ["#ffffff"]
+	},
+	"last_number_label": {
+		"fontFamily": "ObelixProIt_",
+		"fontSize": "34px",
+		"fill": ["#ffffff"],
+		"dropShadow": true,
+		"dropShadowAlpha": 0.4,
+		"dropShadowBlur": 0,
+		"dropShadowColor": "#000000",
+		"dropShadowAngle": 2.1,
+		"dropShadowDistance": 5,
+		"padding": 10
+	}
+}

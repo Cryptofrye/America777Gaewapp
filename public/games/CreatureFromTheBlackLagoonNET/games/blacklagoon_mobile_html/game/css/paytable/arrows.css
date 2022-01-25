@@ -1,0 +1,52 @@
+/*PAYTABLE ARROWS*/
+#paytableNavigation_arrows {
+    margin: auto;
+    width: 100%;
+    bottom: 262px;
+    left: 125px;
+}
+
+
+#paytableNavigation_arrows li {
+    width: 50px;
+    height: 60px;
+    text-indent: 100px;
+    overflow: hidden;
+}
+
+#paytableNext {
+    margin-left: 908px;
+}
+
+.interface-cardNavigation_arrows_previous {
+
+    background: url("../../multimedia/images/1280x720/paytable/paytable_previous_button_deselected.png") no-repeat;
+}
+
+.interface-cardNavigation_arrows_previous:hover {
+    background: url("../../multimedia/images/1280x720/paytable/paytable_previous_button_selected.png") no-repeat;
+}
+
+.interface-cardNavigation_arrows_previous:active {
+    background: url("../../multimedia/images/1280x720/paytable/paytable_previous_button_deselected.png") no-repeat;
+}
+
+.interface-cardNavigation_arrows_next {
+    background: url("../../multimedia/images/1280x720/paytable/paytable_previous_button_deselected.png") no-repeat;
+    left: 1155px;
+
+    -ms-filter: "FlipH";
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+}
+
+.interface-cardNavigation_arrows_next:hover {
+    background: url("../../multimedia/images/1280x720/paytable/paytable_previous_button_selected.png") no-repeat;
+}
+
+.interface-cardNavigation_arrows_next:active {
+    background: url("../../multimedia/images/1280x720/paytable/paytable_previous_button_deselected.png") no-repeat;
+}
+/*PAYTABLE ARROWS*/

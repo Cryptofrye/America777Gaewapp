@@ -1,0 +1,11 @@
+<moneyformats>
+   <moneyformat>
+      <dividers thousands="," decimal="."/>
+      <strings>
+         <curchar after="false">HUF</curchar>
+         <centchar usecent="false" after="false">c</centchar>
+      </strings>
+      <iso>HUF</iso>
+      <decimals>2</decimals>
+   </moneyformat>
+</moneyformats>

@@ -1,0 +1,250 @@
+{
+  "definitions": {
+    "operatingSystems": {
+      "iOS": {
+        "name": "iOS",
+        "preferredBrowser": "Safari",
+        "matchPattern": "(?:iPhone|iPad);.+OS\\s\\d+_\\d+(?:_\\d+)?\\slike Mac OS X",
+        "version": {
+          "matchPattern": "OS (\\d+_\\d+(?:_\\d+)?) like Mac OS X",
+          "separator": "_"
+        }
+      },
+      "android": {
+        "name": "Android",
+        "preferredBrowser": "Chrome",
+        "matchPattern": "\\((?:Linux;\\s(?:U;\\s)?)?Android\\s*(\\d+)\\.?(\\d?)\\.?(\\d?)?;",
+        "version": {
+          "matchPattern": "Android (\\d+)\\.?(\\d?)"
+        }
+      },
+      "osX": {
+        "name": "OS X",
+        "preferredBrowser": "Safari",
+        "matchPattern": "\\(Macintosh;.+Mac OS X \\d+[_.]\\d+(?:[_.]\\d+)?",
+        "version": {
+          "matchPattern": "\\(Macintosh;.+Mac OS X (\\d+[_.]\\d+(?:[_.]\\d+)?)",
+          "separator": "_"
+        }
+      },
+      "windows7": {
+        "name": "Windows 7",
+        "preferredBrowser": "Chrome",
+        "matchPattern": "Windows NT 6\\.1",
+        "version": {
+          "matchPattern": "Windows NT (6\\.1)"
+        }
+      },
+      "windows": {
+        "name": "Windows",
+        "preferredBrowser": "Chrome",
+        "matchPattern": "Windows NT \\d+\\.\\d+(?:\\.\\d+)?",
+        "version": {
+          "matchPattern": "Windows NT (\\d+\\.\\d+(?:\\.\\d+)?)"
+        }
+      }
+    },
+    "browsers": {
+      "safari": {
+        "name": "Safari",
+        "matchPattern": "(?!.*MQQBrowser) Version\\/.+Safari\/\\d+\\.\\d+(?:\\.\\d+)?",
+        "version": {
+          "matchPattern": "Version\/(\\d+\\.\\d+(?:\\.\\d+)?)"
+        }
+      },
+      "criOS": {
+        "name": "CriOS",
+        "matchPattern": "CriOS\\/(\\d+)?\\.?(\\d+)?",
+        "version": {
+          "matchPattern": "CriOS\\/(\\d+)?\\.?(\\d+)?"
+        }
+      },
+      "chrome": {
+        "name": "Chrome",
+        "matchPattern": "\\sChrome\\/\\d+(?:\\.\\d+)*?(?:\\sMobile)?\\sSafari\\/(?:\\d+(?:\\.\\d+)*)$",
+        "version": {
+          "matchPattern": "Chrome\\/(\\d+\\.\\d+(?:\\.\\d+)?)"
+        }
+      },
+      "samsungBrowser": {
+        "name": "Samsung Browser",
+        "matchPattern": "SamsungBrowser\/\\d+\\.\\d+(?:\\.\\d+)?",
+        "version": {
+          "matchPattern": "SamsungBrowser\/(\\d+\\.\\d+(?:\\.\\d+)?)"
+        }
+      },
+      "firefox": {
+        "name": "Firefox",
+        "matchPattern": "Firefox\\/\\d+\\.\\d+(?:\\.\\d+)?",
+        "version": {
+          "matchPattern": "Firefox\\/(\\d+\\.\\d+(?:\\.\\d+)?)"
+        }
+      },
+      "IE11": {
+        "name": "IE11",
+        "matchPattern": "Trident\\/7\\.\\d+(?:\\.\\d+)?",
+        "version": {
+          "matchPattern": "Trident\\/(7\\.\\d+(?:\\.\\d+)?)"
+        }
+      },
+      "edge": {
+        "name": "edge",
+        "matchPattern": "Edge\\/\\d+\\.\\d+(?:\\.\\d+)?",
+        "version": {
+          "matchPattern": "Edge\\/(\\d+\\.\\d+(?:\\.\\d+)?)"
+        }
+      },
+      "qqBrowser": {
+        "name": "QQBrowser",
+        "matchPattern": "QQBrowser\\/(\\d+)?\\.?(\\d+)?",
+        "version": {
+          "matchPattern": "QQBrowser\\/(\\d+)?\\.?(\\d+)?"
+        }
+      },
+      "ucBrowser": {
+        "name": "UCBrowser",
+        "matchPattern": "UCBrowser\\/(\\d+)?\\.?(\\d+)?",
+        "version": {
+          "matchPattern": "UCBrowser\\/(\\d+)?\\.?(\\d+)?"
+        }
+      },
+      "uBrowser": {
+        "name": "UBrowser",
+        "matchPattern": "UBrowser\\/(\\d+)?\\.?(\\d+)?",
+        "version": {
+          "matchPattern": "UBrowser\\/(\\d+)?\\.?(\\d+)?"
+        }
+      }
+    }
+  },
+  "ruleSets": {
+    "white": {
+      "iOS": {
+        "version": {
+          "min": "11.0"
+        },
+        "browsers": {
+          "safari": {
+            "version": {
+              "min": "11.0"
+            }
+          },
+          "criOS": {
+            "version": {
+              "min": "71.0"
+            }
+          }
+        }
+      },
+      "android": {
+        "version": {
+          "min": "7.0"
+        },
+        "browsers": {
+          "samsungBrowser": {
+            "version": {
+              "min": "7.2"
+            }
+          },
+          "chrome": {
+            "version": {
+              "min": "71.0"
+            }
+          },
+          "qqBrowser": {
+            "version": {
+              "min": "9.0"
+            }
+          },
+          "ucBrowser": {
+            "version": {
+              "min": "12.0"
+            }
+          }
+        }
+      },
+      "osX": {
+        "version": {
+          "min": "10.12"
+        },
+        "browsers": {
+          "safari": {
+            "version": {
+              "min": "11.0"
+            }
+          },
+          "chrome": {
+            "version": {
+              "min": "71.0"
+            }
+          }
+        }
+      },
+      "windows7": {
+        "version": {
+          "min": "6.1"
+        },
+        "browsers": {
+          "uBrowser": {
+            "version": {
+              "min": "6.0"
+            }
+          },
+          "chrome": {
+            "version": {
+              "min": "71.0"
+            }
+          },
+          "firefox": {
+            "version": {
+              "min": "66.0"
+            }
+          },
+          "IE11": {
+            "version": {
+              "min": "7.0"
+            }
+          },
+          "qqBrowser": {
+            "version": {
+              "min": "10.0"
+            }
+          }
+        }
+      },
+      "windows": {
+        "version": {
+          "min": "10.0"
+        },
+        "browsers": {
+          "uBrowser": {
+            "version": {
+              "min": "6.0"
+            }
+          },
+          "chrome": {
+            "version": {
+              "min": "71.0"
+            }
+          },
+          "firefox": {
+            "version": {
+              "min": "66.0"
+            }
+          },
+          "qqBrowser": {
+            "version": {
+              "min": "10.0"
+            }
+          },
+          "edge": {
+            "version": {
+              "min": "17.0"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

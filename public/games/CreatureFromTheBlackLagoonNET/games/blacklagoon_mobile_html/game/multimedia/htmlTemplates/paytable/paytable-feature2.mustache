@@ -1,0 +1,34 @@
+<div class="utils_center_text paytable-content" >
+    <div class="paytable-page">
+        <div>
+            <div class="paytable-feature-image">
+                <img src="{{IMAGE}}" class="feature-image"/>
+            </div>
+        </div>
+        <div class="paytable-feature-body-freespins">
+            <div class="paytable-freespins-text">
+                {{#FREESPINS_SYMBOL_TEXT}}
+                    <div><span class="paytable-freespins-text-style">{{.}}</span></div>
+                {{/FREESPINS_SYMBOL_TEXT}}
+                {{#TARGET_SYMBOL_TEXT}}
+                    <div><span class="paytable-target-symbol-style">{{.}}</span></div>
+                {{/TARGET_SYMBOL_TEXT}}
+            </div>
+            <div class="paytable-additional-freespins-text">
+                {{#BODY}}
+                    <div class="paytable-nooffreespins-text">{{.}}</div>
+                {{/BODY}}
+                {{#WILD_MAIN_GAME_TEXT}}
+                    <div class="paytable-text paytable-wild-text paytable-wild-more-info-text">{{.}}</div>
+                {{/WILD_MAIN_GAME_TEXT}}
+                {{#ADDITIONAL_FREESPINS_GAME_TEXT}}
+                    <div class="paytable-text">{{.}}</div>
+                {{/ADDITIONAL_FREESPINS_GAME_TEXT}}
+                {{#MORE_INFO_TEXT}}
+                    <div class="paytable-text paytable-wild-more-info-text">{{.}}</div>
+                {{/MORE_INFO_TEXT}}
+            </div>
+        </div>
+    </div>
+</div>
+

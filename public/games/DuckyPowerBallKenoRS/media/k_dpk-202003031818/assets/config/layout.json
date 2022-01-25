@@ -1,0 +1,228 @@
+{
+	"scene": {
+		"width": 1920,
+		"height": 1080
+	},
+	"service_menu": {
+		"main": {
+			"help_btn": {
+				"x": 1700, "y": 1004
+			},
+			"fullscreen_btn": {
+				"x": 1770, "y": 1004
+			},
+			"sound_btn": {
+				"x": 1840, "y": 1004
+			}
+		},
+		"mobile": {
+			"help_btn": {
+				"x": 1570, "y": 1000
+			},
+			"fullscreen_btn": {
+				"x": 1685, "y": 1000
+			},
+			"sound_btn": {
+				"x": 1800, "y": 1000
+			}
+		}
+
+	},
+	"side_menu": {
+		"position": {
+			"x": 1580, "y": 490
+		},
+		"quick_pick_btn": {
+			"x": 0, "y": 0
+		},
+		"clear_card_btn": {
+			"x": 0, "y": 83
+		},
+		"coin_value_btn": {
+			"position": {
+				"x": 0, "y": 166
+			},
+			"label": {
+				"x": -60, "y": 0
+			},
+			"value": {
+				"x": 75, "y": 0
+			}
+		},
+		"bet_amount_btn": {
+			"position": {
+				"x": 0, "y": 249
+			},
+			"label": {
+				"x": -60, "y": 0
+			},
+			"value": {
+				"x": 75, "y": 0
+			}
+		},
+		"play_btn": {
+			"x": 0, "y": 332
+		},
+		"autoplay_btn": {
+			"x": -70, "y": 470
+		},
+		"autoplay_label": {
+			"x": -70, "y": 675
+		},
+		"autoplay_btn_label": {
+			"on": {
+				"x": 68, "y": 32
+			},
+			"off": {
+				"x": 99, "y": 32
+			}
+		}
+	},
+	"info_panel": {
+		"picks_label": {
+			"x": 1295, "y": 517
+		},
+		"picks_value": {
+			"x": 1530, "y": 517
+		},
+		"credits_label": {
+			"x": 1580, "y": 465
+		},
+		"credits_value": {
+			"x": 1870, "y": 465
+		}
+	},
+	"playfield": {
+		"btns_playfield": {
+			"x": 15,
+			"y": 40
+		},
+		"button_indent": {
+			"x": 85,
+			"y": 83
+		},
+		"offset": {
+			"x": 120,
+			"y": 120
+		}
+	},
+	"help": {
+		"x": 15,
+		"y": 40,
+		"help_text_viewer": {
+			"width": 1180,
+			"height": 1006
+		},
+		"help_container": {
+			"x": 40,
+			"y": 0,
+			"width": 1200,
+			"height": 1006
+		}
+	},
+	"animated_duck": {
+		"position": {
+			"x": 1385, "y": 290
+		},
+		"clouds": {
+			"cloud-0001": {
+				"x": 15, "y": -100
+			},
+			"cloud-0002": {
+				"x": 42, "y": -100
+			},
+			"cloud-0003": {
+				"x": 75, "y": -105
+			},
+			"cloud-0004": {
+				"x": 305, "y": -160
+			}
+		},
+		"message": {
+			"x": 315, "y": -150
+		}
+	},
+	"paytable": {
+		"x": 1290,
+		"y": 552,
+		"header": {
+			"hit": {
+				"x": 0,
+				"y": 0
+			},
+			"pay_rise": {
+				"x": 240,
+				"y": 0
+			}
+		},
+		"table_line": {
+			"label": {
+				"x": 20,
+				"y": 0
+			},
+			"value": {
+				"x": 230,
+				"y": 0
+			}
+		}
+	},
+	"table_frame": {
+		"x": 1220,
+		"y": 330
+	},
+	"spotlights": [
+		{
+			"position": {
+				"x": 1110, "y": -100
+			},
+			"direction": {
+				"x": 1920, "y": 700
+			},
+			"range": 300
+		},
+		{
+			"position": {
+				"x": 1040, "y": -100
+			},
+			"direction": {
+				"x": 1920, "y": 720
+			},
+			"range": 400
+		},
+		{
+			"position": {
+				"x": 1000, "y": -100
+			},
+			"direction": {
+				"x": 1920, "y": 1020
+			},
+			"range": 3800
+		}
+	],
+	"win_label": {
+		"x": 960,
+		"y": 1057
+	},
+	"logo": {
+		"x": 1450,
+		"y": 20
+	},
+	"grass": {
+		"left": {
+			"x": -40,
+			"y": 930
+		},
+		"right": {
+			"x": 1840,
+			"y": 950
+		}
+	},
+	"last_number_label": {
+		"x": 1350,
+		"y": 955,
+		"label": {
+			"x": 70,
+			"y": 25
+		}
+	}
+}

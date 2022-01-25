@@ -1,0 +1,26 @@
+/*PAYTABLE INDICATORS*/
+#paytableNavigationindicators {
+    left: 629px;
+    top: 390px;
+}
+
+.interface-cardNavigation_indicator {
+    padding: 0 !important;
+    height: 40px !important;
+    width: 40px !important;
+
+    background-size: auto 100%;
+    background: center center url('../../multimedia/images/1280x720/paytable/status_bar_deselected.png') no-repeat;
+}
+
+.interface-cardNavigation_indicator:hover {
+    background-size: auto 100%;
+    background: center center url('../../multimedia/images/1280x720/paytable/status_bar_deselected.png') no-repeat;
+}
+
+.interface-cardNavigation_indicator.interface-cardNavigation_selectedIndicator {
+    background-size: auto 100%;
+    background: center center url('../../multimedia/images/1280x720/paytable/status_bar_selected.png') no-repeat;
+}
+
+/****PAYTABLE INDICATORS*/

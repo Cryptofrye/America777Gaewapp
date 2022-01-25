@@ -1,0 +1,12 @@
+{
+    "help_en_US": "assets/config/help_en_US.md",
+    "help_ru_RU": "assets/config/help_ru_RU.md",
+    "help_style": "assets/config/help_style.json",
+    "style": "assets/config/style.json",
+    "Ahkio": "assets/fonts/Ahkio.fnt",
+    "AhkioBrown": "assets/fonts/AhkioBrown.fnt",
+    "background": "assets/images/background.jpg",
+    "lightray": "assets/shaders/lightray.frag",
+    "atlas-0": "assets/spritesheets/atlas-0.json",
+    "atlas-1": "assets/spritesheets/atlas-1.json"
+}

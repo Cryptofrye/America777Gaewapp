@@ -1,0 +1,285 @@
+
+counter.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+belly_hit_png/bellyhit_0001
+  rotate: false
+  xy: 0, 641
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+belly_hit_png/bellyhit_0025
+  rotate: true
+  xy: 641, 361
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+belly_hit_png/bellyhit_0027
+  rotate: true
+  xy: 0, 0
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+belly_hit_png/bellyhit_0029
+  rotate: false
+  xy: 361, 0
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+
+counter2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+belly_hit_png/bellyhit_0031
+  rotate: false
+  xy: 0, 641
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+belly_hit_png/bellyhit_0033
+  rotate: true
+  xy: 641, 361
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+belly_hit_png/bellyhit_0035
+  rotate: true
+  xy: 0, 0
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+belly_hit_png/bellyhit_0037
+  rotate: false
+  xy: 361, 0
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+
+counter3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+belly_hit_png/bellyhit_0039
+  rotate: false
+  xy: 0, 641
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+belly_hit_png/bellyhit_0040
+  rotate: true
+  xy: 641, 361
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+knee_hit_png/kneehit_0001
+  rotate: true
+  xy: 0, 0
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+knee_hit_png/kneehit_0024
+  rotate: false
+  xy: 361, 0
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+
+counter4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+knee_hit_png/kneehit_0026
+  rotate: false
+  xy: 0, 641
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+knee_hit_png/kneehit_0028
+  rotate: true
+  xy: 641, 361
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+knee_hit_png/kneehit_0030
+  rotate: true
+  xy: 0, 0
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+knee_hit_png/kneehit_0032
+  rotate: false
+  xy: 361, 0
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+
+counter5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+knee_hit_png/kneehit_0034
+  rotate: false
+  xy: 0, 641
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+knee_hit_png/kneehit_0036
+  rotate: true
+  xy: 641, 361
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+knee_hit_png/kneehit_0038
+  rotate: true
+  xy: 0, 0
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+knee_hit_png/kneehit_0040
+  rotate: false
+  xy: 361, 0
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+
+counter6.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+knee_hit_png/kneehit_0042
+  rotate: false
+  xy: 0, 641
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+knee_hit_png/kneehit_0044
+  rotate: true
+  xy: 641, 361
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+knee_hit_png/kneehit_0045
+  rotate: true
+  xy: 0, 0
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+shoulder_hit_png/shouldrhit_0032
+  rotate: false
+  xy: 361, 0
+  size: 615, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+
+counter7.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shoulder_hit_png/shouldrhit_0030
+  rotate: false
+  xy: 0, 614
+  size: 614, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+shoulder_hit_png/shouldrhit_0036
+  rotate: false
+  xy: 361, 0
+  size: 612, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+shoulder_hit_png/shouldrhit_0038
+  rotate: true
+  xy: 615, 361
+  size: 613, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+shoulder_hit_png/shouldrhit_0039
+  rotate: true
+  xy: 0, 0
+  size: 613, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+
+counter8.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shoulder_hit_png/shouldrhit_0024
+  rotate: true
+  xy: 0, 6
+  size: 605, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+shoulder_hit_png/shouldrhit_0026
+  rotate: false
+  xy: 361, 0
+  size: 605, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+shoulder_hit_png/shouldrhit_0028
+  rotate: false
+  xy: 0, 612
+  size: 611, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+shoulder_hit_png/shouldrhit_0034
+  rotate: true
+  xy: 612, 361
+  size: 611, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+
+counter9.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+shoulder_hit_png/shouldrhit_0001
+  rotate: false
+  xy: 0, 4
+  size: 331, 326
+  orig: 640, 360
+  offset: 275, 33
+  index: -1

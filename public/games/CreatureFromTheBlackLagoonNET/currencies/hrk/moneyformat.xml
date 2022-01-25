@@ -1,0 +1,11 @@
+<moneyformats>
+   <moneyformat>
+      <dividers thousands="," decimal="."/>
+      <strings>
+         <curchar after="false">HRK</curchar>
+         <centchar usecent="false" after="false">c</centchar>
+      </strings>
+      <iso>HRK</iso>
+      <decimals>2</decimals>
+   </moneyformat>
+</moneyformats>

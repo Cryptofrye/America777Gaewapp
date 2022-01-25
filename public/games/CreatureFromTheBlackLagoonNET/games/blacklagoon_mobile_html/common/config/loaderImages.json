@@ -1,0 +1,15 @@
+{
+    "logo" : "multimedia/touch/loader/netent_logo_animation.png",
+    "logoStatic" : "multimedia/touch/loader/netent-logo.png",
+    "touch" : "multimedia/touch/loader/touch_logo.png",
+    "bar" : "multimedia/touch/loader/bar.png",
+    "bar-slow" : "multimedia/touch/loader/bar-slow.png",
+    "bar-stopped" : "multimedia/touch/loader/bar-stopped.png",
+    "barHighlight" : "multimedia/touch/loader/bar_highlight.png",
+    "barHighlight-slow" : "multimedia/touch/loader/bar_highlight-slow.png",
+    "frame" : "multimedia/touch/loader/bar_frame.png",
+    "frameGlow-normal" : "multimedia/touch/loader/bar_frame_glow.png",
+    "frameGlow-slow" : "multimedia/touch/loader/bar_frame_glow-slow.png",
+    "frameGlow-stopped" : "multimedia/touch/loader/bar_frame_glow-stopped.png",
+    "production" : "multimedia/touch/loader/netent_production_label.png"
+}

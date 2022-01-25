@@ -1,0 +1,285 @@
+/*PAYTABLE SYMBOLS*/
+.interface-paytableDesktop_base .interface-paytable_symbols {
+    width: 60%;
+    margin-left: 22%;
+    margin-top: 0.5%;
+}
+
+.interface-paytable_symbols tr {
+    margin: 0 auto;
+    display: table;
+}
+
+.interface-paytableDesktop_base .interface-paytable_symbols td {
+    width: 120px;
+}
+
+.mobile-version .interface-paytable_symbols td {
+    width: 90px;
+}
+
+/****PAYTABLE Mobile CSS*/
+.feature-image-mobile {
+    display: inline;
+}
+
+.paytable-feature-imageWild1-mobile {
+    vertical-align: top;
+    display: inline-block;
+    color: #fee43;
+}
+.paytable-feature-imageWild2-mobile {
+    vertical-align: top;
+    display: inline-block;
+    padding: 0 2%;
+    color: #fee43;
+}
+.paytable-feature-imageWild3-mobile {
+    vertical-align: top;
+    display: inline-block;
+    color: #fee43;
+}
+
+.paytable-feature-scatterImage2-mobile{
+    display: inline;
+    float: right;
+    margin-right: 10%;
+}
+
+.paytable-feature-scatterImage1-mobile{
+    display: inline;
+    float: left;
+    margin-left: 10%;
+}
+
+.interface-paytable_portrait .paytable-feature-scatterImage1-mobile{
+    width: 25%;
+}
+
+.interface-paytable_portrait .paytable-feature-scatterImage2-mobile{
+    width: 25%;
+}
+
+.interface-paytable_portrait .paytable-page img{
+    width: 100%;
+}
+
+
+
+
+
+
+.interface-paytable_portrait .paytable-feature-imageWild1-mobile {
+    width: 25%;
+    height: 25%;
+}
+.interface-paytable_portrait .paytable-feature-imageWild2-mobile {
+    width: 25%;
+    height: 25%;
+}
+.interface-paytable_portrait .paytable-feature-imageWild3-mobile {
+    width: 25%;
+    height: 25%;
+}
+
+.paytable-feature1-mobile img{
+    width: 100%;
+}
+
+.interface-paytable_portrait .feature-image-mobile {
+    background-size: 100%;
+    width: 470px;
+    height: 168px;
+}
+
+.interface-paytable_symbolValues {
+    font-size: 0.9em;
+    margin: auto;
+}
+
+.interface-paytableDesktop_base .interface-paytable_symbolValues {
+    padding-left: 30px;
+}
+
+.interface-paytable_symbolValues .symbolCount,
+.interface-paytable_symbolValues .symbolPayout {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.interface-paytableDesktop_base .interface-paytable_symbolValues .symbolCount {
+    color: greenyellow;
+}
+
+.mobile-version .interface-paytable_symbolValues .symbolCount {
+    color: orange;
+}
+
+.interface-paytableDesktop_base .interface-paytable_symbolValues .symbolPayout,
+.mobile-version .interface-paytable_symbolValues .symbolPayout {
+    color: white;
+}
+
+.SYM-image {
+    background-size: 100%;
+    height: 120px;
+    width: 120px;
+}
+
+.feature-image {
+    background-size: 100%;
+    height: 720px;
+    width: 1280px;
+}
+
+.mobile-version .SYM-image {
+    margin-right: 10px;
+}
+
+.interface-paytable_symbols {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.paytable_symbols_item {
+    display: flex;
+    margin: 10px 5px;
+}
+
+.interface-paytable_symbols_row {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.interface-paytable_symbols_item {
+    display: flex;
+    margin: 20px;
+}
+
+.paytable-feature-image {
+    position: relative;
+    top: -61px;
+    left: 2px;
+}
+
+.mobile-version .second-payout-header {
+    display: none;
+}
+
+.mobile-version .paytableHighSymbols .header {
+    display: none;
+}
+
+.Wild-header-text{
+    color: #fee435;
+    margin-top: -22px;
+    margin-bottom: 2px;
+    font-size: 35px;
+    font-family: Arial;
+}
+
+.Stacked-header-text {
+    color: #fee435;
+    margin-top: 23px;
+    padding-top: 6px;
+    font-size: 27px;
+    font-family: Arial;
+}
+
+.mobile-version .Wild-header-text{
+    color: #fee435;
+    margin-top: -27px;
+    font-size: 27px;
+    font-family: Arial;
+}
+
+.header-style {
+    padding-top: 6px;
+    padding-bottom: 4px;
+}
+
+.section_divider {
+    height: 2px;
+    padding-bottom: 3%;
+}
+
+/****PAYTABLE SYMBOLS*/
+
+/*PAYTABLE FEATURE*/
+.paytable-feature-symbol {
+    margin: 30px;
+}
+
+.paytable-feature-body {
+    margin-bottom: 30px;
+}
+
+.paytable-feature-body-wild {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 175px;
+    position: relative;
+    top: -625px;
+}
+
+.paytable-feature-body-freespins {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 175px;
+    position: relative;
+    top: -625px;
+}
+
+.paytable-feature-body-freespins-mobile {
+    text-align: left;
+    font-size: 22px;
+    clear: both;
+    padding-top: 2%;
+}
+
+
+
+/****PAYTABLE FEATURE*/
+
+/*PAYTABLE BETLINES*/
+.mobile-version .paytable-betlines-image {
+    margin-bottom: 50px;
+}
+
+.feature-image {
+    background-size: 100%;
+}
+
+.image4-mobile{
+    width: 100%;
+}
+
+.header-style {
+    padding-top: 6px;
+}
+
+/****PAYTABLE BETLINES*/
+
+/****PAYTABLE CLOSE BUTTON*********/
+.interface-settingsWindow_closeButton_uri {
+    width: 50px;
+    height: 50px;
+    margin: 32px 118px 0px 0px;
+    background: url("../../multimedia/images/1280x720/paytable/paytable_close_button.png") no-repeat;
+    z-index: 500;
+}
+
+.interface-settingsWindow_closeButton_uri.hover {
+    background: url("../../multimedia/images/1280x720/paytable/paytable_close_button_hover.png") no-repeat;
+}
+
+.interface-settingsWindow_closeButton_uri.down {
+    background: url("../../multimedia/images/1280x720/paytable/paytable_close_down_button.png") no-repeat;
+}
+

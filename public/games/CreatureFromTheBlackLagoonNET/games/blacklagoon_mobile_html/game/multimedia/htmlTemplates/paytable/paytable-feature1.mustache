@@ -1,0 +1,33 @@
+<div class="utils_center_text paytable-content" >
+    <div class="paytable-page">
+        <div>
+            <div class="paytable-feature-image">
+                <img src="{{IMAGE}}" class="feature-image"/>
+            </div>
+        </div>
+        <div class="paytable-feature-body-wild">
+            <div class="paytable-spreading-wild-text">
+                {{#SPREADING_WILD_TEXT_1}}
+                <div><span class="paytable-spreading-wild-text-1-style">{{.}}</span></div>
+                {{/SPREADING_WILD_TEXT_1}}
+                {{#SPREADING_WILD_TEXT_2}}
+                    <div><span class="paytable-spreading-wild-text-2-style">{{.}}</span></div>
+                {{/SPREADING_WILD_TEXT_2}}
+                {{#WILD_TEXT}}
+                    <div><span class="paytable-wild-text-style">{{.}}</span></div>
+                {{/WILD_TEXT}}
+            </div>
+            <div class="paytable-wild-mainGame-text">
+            {{#BODY}}
+                <div class="paytable-text paytable-wild-text">{{.}}</div>
+            {{/BODY}}
+            {{#WILD_MAIN_GAME_TEXT}}
+                <div class="paytable-text">{{.}}</div>
+            {{/WILD_MAIN_GAME_TEXT}}
+            {{#MORE_INFO_TEXT}}
+                <div class="paytable-text paytable-wild-more-info-text">{{.}}</div>
+            {{/MORE_INFO_TEXT}}
+            </div>
+        </div>
+    </div>
+</div>

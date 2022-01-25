@@ -1,0 +1,41 @@
+
+wild_unlock.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bracket
+  rotate: false
+  xy: 0, 441
+  size: 610, 240
+  orig: 610, 240
+  offset: 0, 0
+  index: -1
+red_wild
+  rotate: false
+  xy: 0, 275
+  size: 188, 165
+  orig: 188, 165
+  offset: 0, 0
+  index: -1
+text1
+  rotate: false
+  xy: 0, 682
+  size: 889, 102
+  orig: 1007, 220
+  offset: 59, 59
+  index: -1
+text2
+  rotate: false
+  xy: 0, 785
+  size: 918, 132
+  orig: 1007, 220
+  offset: 45, 44
+  index: -1
+yellow_wild
+  rotate: false
+  xy: 611, 516
+  size: 188, 165
+  orig: 188, 165
+  offset: 0, 0
+  index: -1

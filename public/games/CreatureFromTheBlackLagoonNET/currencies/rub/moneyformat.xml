@@ -1,0 +1,11 @@
+<moneyformats>
+   <moneyformat>
+      <dividers thousands="," decimal="."/>
+      <strings>
+         <curchar after="false">RUB</curchar>
+         <centchar usecent="false" after="false">c</centchar>
+      </strings>
+      <iso>RUB</iso>
+      <decimals>2</decimals>
+   </moneyformat>
+</moneyformats>

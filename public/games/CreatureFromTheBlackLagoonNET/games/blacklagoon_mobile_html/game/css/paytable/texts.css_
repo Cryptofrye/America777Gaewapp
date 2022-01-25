@@ -1,0 +1,249 @@
+/*PAYTABLE TEXT*/
+.paytable-text {
+    text-align: left;
+    font-family: CALIST;
+    width: 82%;
+    font-size: 15px;
+    color: #84510b;
+}
+
+.paytable-nooffreespins-text {
+    text-align: left;
+    font-family: CALIST;
+    width: 82%;
+    font-size: 15px;
+    color: #d15c3a;
+}
+
+.interface-paytable_portrait .paytable-nooffreespins-text {
+    text-align: center;
+    font-family: Arial;
+    width: 100%;
+    font-size: 20px;
+    color: #00effe;
+}
+
+.interface-paytable_landscape .paytable-nooffreespins-text {
+    text-align: center;
+    font-family: Arial;
+    width: 100%;
+    font-size: 22px;
+    color: #00effe;
+}
+
+.paytable-wild-text {
+    margin-bottom: 19px;
+}
+
+.paytable-wild-more-info-text {
+    margin-top: 19px;
+}
+
+.paytable-spreading-wild-text {
+    float: right;
+    width: 64%;
+}
+
+.paytable-spreading-wild-text-mobile {
+    width: 100%;
+    position: relative;
+    font-family: Arial;
+    color: #fee435;
+    font-size: 20px;
+}
+
+.mobile-version .paytable-header {
+    color: white;
+    margin: 37px 0;
+    font-family: Arial;
+}
+
+.paytable-freespins-text {
+    float: right;
+    width: 64%;
+}
+
+.mobile-version .paytable-freespins-text {
+    width: 100%;
+}
+
+.paytable-wild-mainGame-text {
+    width: 37%;
+}
+
+.paytable-wild-mainGame-mobile-text {
+    clear: both;
+    padding-top: 2%;
+}
+
+.paytable-additional-freespins-text {
+    width: 35%;
+}
+
+.paytable-additional-freespins-mobile-text {
+    width: 100%;
+}
+
+.set-min-width-wild-style {
+    min-height: 135px;
+}
+
+.paytable-spreading-wild-text-1-style {
+    position: relative;
+    top: 152px;
+    margin-left: -581px;
+    font-family: CALIST;
+    color: #84510b;
+    font-size: 20px;
+}
+
+.paytable-spreading-wild-text-2-style {
+    position: relative;
+    top: 33px;
+    margin-left: -161px;
+    font-family: CALIST;
+    color: #84510b;
+    font-size: 20px;
+}
+
+.paytable-spreading-wild-text-1-mobile-style {
+    position: relative;
+    top: -30px;
+    margin-left: -6px;
+    font-family: Arial;
+    color: #fee435;
+    font-size: 24px;
+}
+
+.interface-paytable_portrait .paytable-spreading-wild-text-1-mobile-style {
+    position: relative;
+    top: -21px;
+    margin-left: -6px;
+    font-family: Arial;
+    color: #fee435;
+    font-size: 18px;
+}
+
+.paytable-spreading-wild-text-2-mobile-style {
+    position: relative;
+    top: -60px;
+    margin-left: 496px;
+    font-family: Arial;
+    color: #fee435;
+    font-size: 24px;
+}
+
+.interface-paytable_portrait .paytable-spreading-wild-text-2-mobile-style {
+    position: relative;
+    top: -42px;
+    margin-left: 326px;
+    font-family: Arial;
+    color: #fee435;
+    font-size: 18px;
+}
+
+
+.paytable-freespins-text-style {
+    position: relative;
+    top: 125px;
+    margin-left: -536px;
+    font-family: CALIST;
+    color: #84510b;
+    font-size: 20px;
+}
+
+.paytable-freespins-text-style-mobile {
+    font-family: Arial;
+    color: #fee435;
+    font-size: 20px;
+}
+
+.paytable-target-symbol-style {
+    position: relative;
+    top: 171px;
+    margin-left: -135px;
+    font-family: CALIST;
+    color: #84510b;
+    font-size: 20px;
+}
+
+.paytable-target-symbol-style-mobile {
+    font-family: Arial;
+    color: #fee435;
+    font-size: 20px;
+}
+
+.paytable-wild-text-style {
+    position: relative;
+    top: 195px;
+    margin-left: -202px;
+    font-family: CALIST;
+    color: #84510b;
+    font-size: 20px;
+}
+
+.paytable-wild-text-mobile-style {
+    position: relative;
+    top: -91px;
+    margin-left: -500px;
+    font-family: Arial;
+    color: #fee435;
+    font-size: 24px;
+}
+
+.interface-paytable_portrait .paytable-wild-text-mobile-style {
+    position: relative;
+    top: -62px;
+    margin-left: -320px;
+    font-family: Arial;
+    color: #fee435;
+    font-size: 18px;
+}
+
+.interface-paytable_portrait .paytable-text {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+}
+
+.interface-paytable_landscape .paytable-text {
+    color: white;
+    font-size: 22px;
+    width: 100%;
+}
+
+.interface-paytable_portrait .paytable-freespins-text {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.interface-paytable_landscape .paytable-freespins-text {
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.paytable-header {
+    text-transform: uppercase;
+}
+
+.mobile-version .paytable-header {
+    color: white;
+    margin: 20px 0;
+}
+
+.interface-paytableDesktop_base .interface-settingsWindow_base {
+    color: #573C32;
+}
+
+.mobile-version .paytable-text,
+.mobile-version .paytable-header,
+.mobile-version .paytable-scatter-title,
+.mobile-version .symbolCount,
+.mobile-version .symbolPayout {
+    font-family: "Cinzel-Bold", NetentStandardUI, Tahoma, sans-serif;
+}
+/*PAYTABLE TEXT*/

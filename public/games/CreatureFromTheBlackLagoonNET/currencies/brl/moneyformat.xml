@@ -1,0 +1,11 @@
+<moneyformats>
+   <moneyformat>
+      <dividers thousands="," decimal="."/>
+      <strings>
+         <curchar after="false">BRL</curchar>
+         <centchar usecent="false" after="false">c</centchar>
+      </strings>
+      <iso>BRL</iso>
+      <decimals>2</decimals>
+   </moneyformat>
+</moneyformats>

@@ -1,0 +1,33 @@
+/*PAYTABLE DISCLAIMER*/
+.interface-paytableDesktop_base .paytable-bottom-text {
+    font-family: CALIST;
+    position: absolute;
+    bottom: 5px;
+    width: 66%;
+    font-size: 13px;
+    text-align: center;
+    line-height: 15px;
+    margin-left: 17%;
+    top: 431px;
+    color: #84510b;
+}
+
+.interface-paytable_landscape .paytable-bottom-text {
+    font-size: 22px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #fee435;
+}
+
+.interface-paytable_portrait .paytable-bottom-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: #fee435;
+}
+
+.mobile-version .paytable-bottom-text .bullet-element {
+    display: block;
+}
+
+/*PAYTABLE DISCLAIMER*/

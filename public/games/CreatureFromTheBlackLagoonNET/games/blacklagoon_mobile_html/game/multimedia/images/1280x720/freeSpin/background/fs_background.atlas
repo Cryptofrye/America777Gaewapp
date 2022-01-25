@@ -1,0 +1,26 @@
+
+fs_background.jpg
+size: 1280,720
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fs_background
+  rotate: false
+  xy: 0, 0
+  size: 1280, 720
+  orig: 1280, 720
+  offset: 0, 0
+  index: -1
+
+fs_background2.png
+size: 1000,467
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+overlay
+  rotate: false
+  xy: 0, 0
+  size: 1000, 467
+  orig: 1280, 720
+  offset: 140, 164
+  index: -1

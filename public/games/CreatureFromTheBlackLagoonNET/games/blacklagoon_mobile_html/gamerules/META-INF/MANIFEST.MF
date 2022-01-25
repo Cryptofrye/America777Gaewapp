@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Implementation-Title: Language Library
+Implementation-Version: 2.0.0
+Maven-ArtifactId: blacklagoon-gamerules
+Archiver-Version: Plexus Archiver
+Built-By: jenkins-slave
+Jenkins-BuildNumber: 2
+Implementation-Vendor-Id: com.netent.casino-software.games.videoslots.
+ blacklagoon
+Jenkins-BuildId: 2
+Git-Hash: 642992eef54dfc61bc7226fa4200e3cea47bc447 (with local modific
+ ations)
+Implementation-Vendor: Net Entertainment
+Maven-Classifier: 
+Maven-GroupId: com.netent.casino-software.games.videoslots.blacklagoon
+Jenkins-BuildUrl: https://gdp-del-01.netent.com/job/cbl-creature-from-
+ the-black-lagoon-gamerules-master/2/
+Git-CommitTime: 2019-11-11T07:00:22.000Z
+Git-Url: https://git.netent.com/scm/cbl/creature-from-the-black-lagoon
+ -gamerules.git
+Maven-Name: Language Library
+Maven-Version: 2.0.0
+Jenkins-JobName: cbl-creature-from-the-black-lagoon-gamerules-master
+Created-By: Apache Maven 3.0.4
+Build-Jdk: 1.8.0_151
+

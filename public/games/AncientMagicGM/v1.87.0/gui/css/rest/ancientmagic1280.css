@@ -1,0 +1,174 @@
+@CHARSET "UTF-8";
+	
+/* background images */
+#loading													{ background-image: url('../../picts/rest/ancientmagic/1280/loading_screen_l32.jpg'); }
+.container.l169 #loading									{ background-image: url('../../picts/rest/ancientmagic/1280/loading_screen_l169.jpg'); }
+
+.loaded .gameContainer, .offline .gameContainer				{ background-image: url('../../picts/rest/ancientmagic/1280/bg_middle.jpg'); }
+.loaded .headlineContainer, .offline .headlineContainer 	{ background-image: url('../../picts/rest/ancientmagic/1280/bg_top.jpg'); }
+.loaded .mainControlBoxBG, .offline .mainControlBoxBG		{ background-image: url('../../picts/rest/ancientmagic/1280/bg_bottom.jpg'); }
+.freegame .gameContainer									{ background-image: url('../../picts/rest/ancientmagic/1280/bg_middle-fg.jpg'); }
+.freegame .headlineContainer								{ background-image: url('../../picts/rest/ancientmagic/1280/bg_top-fg.jpg'); }
+.freegame .mainControlBoxBG									{ background-image: url('../../picts/rest/ancientmagic/1280/bg_bottom-fg.jpg'); }
+.mainControlBox .webConsole									{ background-image: url('../../picts/rest/ancientmagic/1280/console_web_bg.png'); }
+.mainControlBox .mobileConsole								{ background-image: url('../../picts/rest/ancientmagic/1280/console_mobile_bg.png'); }
+.freegame .mainControlBox .webConsole						{ background-image: url('../../picts/rest/ancientmagic/1280/console_web_bg-fg.png'); }
+.freegame .mainControlBox .mobileConsole					{ background-image: url('../../picts/rest/ancientmagic/1280/console_mobile_bg-fg.png'); }
+.mainControlBox .portraitConsole							{ background-image: url('../../picts/rest/ancientmagic/1280/console_portrait_bg.png'); }
+.freegame .mainControlBox .portraitConsole					{ background-image: url('../../picts/rest/ancientmagic/1280/console_portrait_bg-fg.png'); }
+.container.portrait.loaded .portraitHeadlineContainer 						{ background-image: url('../../picts/rest/ancientmagic/1280/portrait_top.jpg'); }
+.container.portrait.freegame.loaded .portraitHeadlineContainer 				{ background-image: url('../../picts/rest/ancientmagic/1280/portrait_top-fg.jpg'); }
+.container.portrait.freegame.loaded .portraitHeadlineContainer.plain 		{ background-image: url('../../picts/rest/ancientmagic/1280/portrait_top-fg2.jpg'); }
+.container.portrait.smallHeader.loaded .portraitHeadlineContainer 			{ background-image: url('../../picts/rest/ancientmagic/1280/portrait_top_small.jpg'); }
+.container.portrait.freegame.smallHeader.loaded .portraitHeadlineContainer 	{ background-image: url('../../picts/rest/ancientmagic/1280/portrait_top_small-fg.jpg'); }
+.container.portrait.freegame.smallHeader.loaded .portraitHeadlineContainer.plain 	{ background-image: url('../../picts/rest/ancientmagic/1280/portrait_top_small-fg2.jpg'); }
+.container.portrait.loaded .portraitBottomContainer 						{ background-image: url('../../picts/rest/ancientmagic/1280/portrait_bottom_l32.jpg'); }
+.container.portrait.freegame.loaded .portraitBottomContainer 				{ background-image: url('../../picts/rest/ancientmagic/1280/portrait_bottom_l32-fg.jpg'); }
+.container.l169.portrait.loaded .portraitBottomContainer 					{ background-image: url('../../picts/rest/ancientmagic/1280/portrait_bottom_l169.jpg'); }
+.container.l169.portrait.freegame.loaded .portraitBottomContainer 			{ background-image: url('../../picts/rest/ancientmagic/1280/portrait_bottom_l169-fg.jpg'); }
+  
+.infoPopup.webInfo.info2 .settingsBox .settingCheckbox				{ background-image: url('../../picts/rest/ancientmagic/1280/infoSites/web/checkbox-off.png');	}
+.infoPopup.webInfo.info2 .settingsBox .settingCheckbox.active		{ background-image: url('../../picts/rest/ancientmagic/1280/infoSites/web/checkbox-on.png');  	}
+
+.infoPopup.info1 .paytableBG										{ background-image: url('../../picts/rest/ancientmagic/1280/infoSites/paytable.png'); } 
+
+.webConsole .closeInfoButton	 									{ background-image: url('../../picts/rest/ancientmagic/1280/infoSites/web/button-close.png'); 	}
+
+
+.loaded #animFadeoutLayer									{ background-image: url('../../picts/rest/ancientmagic/1280/fadeout.png'); }
+.freegame #animFadeoutLayer									{ background-image: url('../../picts/rest/ancientmagic/1280/fadeout-fg.png'); }
+
+/* for pixi animations (freegame signs) */
+#pixi_container, 
+#freegame_container.pixi					{ background-image: url('../../picts/rest/ancientmagic/1280/bg_middle-fg2.jpg'); }
+.headlineContainer .freegame_blending.pixi	{ background-image: url('../../picts/rest/ancientmagic/1280/bg_top-fg2.jpg'); }
+.mainControlBox .freegame_blending.pixi		{ background-image: url('../../picts/rest/ancientmagic/1280/bg_bottom-fg2.jpg'); }
+.headlineContainer.hype .freegame_blending.pixi { background-image: url('../../picts/rest/ancientmagic/1280/bg_top.jpg'); }
+/*.mainControlBox .hype .freegame_blending.pixi		{ background-image: url('../../picts/rest/ancientmagic/1280/bg_bottom-fg.jpg'); }*/
+
+.headlineContainer.plain .fgBonusSymbol,
+.headlineContainer.title .fgBonusSymbol,
+.headlineContainer.plain .fgPayTable,
+.headlineContainer.title .fgPayTable { opacity: 0; }
+.headlineContainer .fgBonusSymbol		{ position:absolute; left:958px; top:14px;  }
+.headlineContainer .fgBonusSymbol > img	{ width: 86px; height: 86px; }
+
+.headlineContainer .fgPayTable { 
+	position:absolute; 
+	left: 1074px;
+	top: 26px;
+	width: 88px; 
+}
+.headlineContainer .fgPayTable.values4 		{ top:16px; }
+.headlineContainer .fgPayTable .fgWinValue + .fgWinValue 	{ margin-top: -4px; }
+
+
+/* linemarkers */
+.linemarkersBox .lines1, .linemarkerClickareasBox .lines1 	{ top: 28px; }
+
+
+/* info pages */
+.infoPopup.webInfo.info2							{ background-image: url('../../picts/rest/ancientmagic/1280/infoSites/web/background.png'); }
+.infoPopup.info1 .paylines							{ background-image: url('../../picts/rest/ancientmagic/1280/infoSites/lines.png'); }
+.infoPopup.info1 .bonusSymbolBox					{ background-image: url('../../picts/rest/ancientmagic/1280/infoSites/feature.png'); }
+.infoPopup.info1 .bonusSymbolBox-fg					{ background-image: url('../../picts/rest/ancientmagic/1280/infoSites/feature2.png'); }
+.infoPopup.info1 .symbolImg-10						{ background-image: url('../../picts/rest/ancientmagic/1280/infoSites/symbol_Scatter.png'); }
+.infoPopup.info1 .symbolImg-9						{ background-image: url('../../picts/rest/ancientmagic/1280/infoSites/symbol_Hexe.png'); }
+.infoPopup.info1 .symbolImg-8						{ background-image: url('../../picts/rest/ancientmagic/1280/infoSites/symbol_Rabe.png'); }
+.infoPopup.info1 .symbolImg-7						{ background-image: url('../../picts/rest/ancientmagic/1280/infoSites/symbol_Flasche.png'); }
+.infoPopup.info1 .symbolImg-6						{ background-image: url('../../picts/rest/ancientmagic/1280/infoSites/symbol_Kerzen.png'); }
+.infoPopup.info1 .symbolImg-5						{ background-image: url('../../picts/rest/ancientmagic/1280/infoSites/symbol_A.png'); }
+.infoPopup.info1 .symbolImg-4						{ background-image: url('../../picts/rest/ancientmagic/1280/infoSites/symbol_K.png'); }
+.infoPopup.info1 .symbolImg-3						{ background-image: url('../../picts/rest/ancientmagic/1280/infoSites/symbol_Q.png'); }
+.infoPopup.info1 .symbolImg-2						{ background-image: url('../../picts/rest/ancientmagic/1280/infoSites/symbol_J.png'); }
+.infoPopup.info1 .symbolImg-1						{ background-image: url('../../picts/rest/ancientmagic/1280/infoSites/symbol_10.png'); }
+.infoPopup.info1 .bonusSymbolBox .symbolImg.s9		{ background-image: url('../../picts/rest/ancientmagic/1280/symbols/symbol-s-top.jpg'); }
+.infoPopup.info1 .bonusSymbolBox .symbolImg.s8		{ background-image: url('../../picts/rest/ancientmagic/1280/symbols/symbol-s-hv1.jpg'); }
+.infoPopup.info1 .bonusSymbolBox .symbolImg.s7		{ background-image: url('../../picts/rest/ancientmagic/1280/symbols/symbol-s-hv2.jpg'); }
+.infoPopup.info1 .bonusSymbolBox .symbolImg.s6		{ background-image: url('../../picts/rest/ancientmagic/1280/symbols/symbol-s-hv3.jpg'); }
+.infoPopup.info1 .bonusSymbolBox .symbolImg.s5		{ background-image: url('../../picts/rest/ancientmagic/1280/symbols/symbol-s-lv1.jpg'); }
+.infoPopup.info1 .bonusSymbolBox .symbolImg.s4		{ background-image: url('../../picts/rest/ancientmagic/1280/symbols/symbol-s-lv2.jpg'); }
+.infoPopup.info1 .bonusSymbolBox .symbolImg.s3		{ background-image: url('../../picts/rest/ancientmagic/1280/symbols/symbol-s-lv3.jpg'); }
+.infoPopup.info1 .bonusSymbolBox .symbolImg.s2		{ background-image: url('../../picts/rest/ancientmagic/1280/symbols/symbol-s-lv4.jpg'); }
+.infoPopup.info1 .bonusSymbolBox .symbolImg.s1		{ background-image: url('../../picts/rest/ancientmagic/1280/symbols/symbol-s-lv5.jpg'); }
+
+.infoContainer .infoPopup .bonusSymbolBox {
+	position: relative;
+	width: 414px;
+	height: 170px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.infoContainer .infoPopup .bonusSymbolBox .symbolImg {
+	position: absolute;
+	left: 22px;
+	top: 8px;
+	width: 164px;
+	height: 150px;
+	background-size: 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+	box-shadow: 2px 2px rgba(0, 0, 0, 0.5)
+}
+.infoContainer .infoPopup .headline {
+	background-color: #8664b1;
+}
+.infoContainer .infoPopup .winValueBox .winValue .multiplicator {
+	color: #8664b1;
+}
+.infoContainer .infoPopup .winValueBox.winValues-10 .symbolImg {
+	height: 246px;
+}
+.infoContainer .infoPopup .winValueBox.winValues-10 .values {
+	padding-top: 64px;
+}
+
+.infoContainer .infoPopup .paylines {
+	height: 124px;
+}
+
+/* common */
+#symbolAnimBGLayer {
+	position: absolute; 
+	left: 4px; 
+	top: 0px; 
+	width: 1066px; 
+	height: 576px;
+}
+#symbolAnimBGLayer .bgSymbol {
+	position: absolute;
+	width: 210px; 
+	height: 192px;
+}
+/* optimal slot */
+#symbolBGLayer { position:absolute; width:1280px; height:604px; } 
+#symbolPictLayer {
+	position: absolute;
+	top: 40px;
+	left: 254px;
+	width: 780px;
+	height: 480px;	
+	background-size: contain;
+}
+#chosenBonusSymbol {
+	position: absolute;
+	top: 119px;
+	left: 277px;
+	width: 220px;
+	height: 220px;
+}
+
+/* preload fonts */
+#loading div.preloadFont .font3 { font-family: 'Noto Sans', Arial, Sans-serif; font-weight: bold; }
+
+#symbolTeaserContainer {
+	position: absolute; 
+	left: 4px; 
+	top: 0px; 
+	width: 1066px; 
+	height: 576px;
+}
+#symbolTeaserContainer .teaserSymbol {
+	position: absolute;
+	width: 210px; 
+}

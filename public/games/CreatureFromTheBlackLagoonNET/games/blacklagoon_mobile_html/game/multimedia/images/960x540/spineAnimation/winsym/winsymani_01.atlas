@@ -1,0 +1,243 @@
+
+winsymani_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+active_sym/SYM10
+  rotate: false
+  xy: 565, 3
+  size: 139, 126
+  orig: 188, 165
+  offset: 25, 19
+  index: -1
+active_sym/SYM7
+  rotate: false
+  xy: 705, 3
+  size: 136, 119
+  orig: 188, 165
+  offset: 26, 23
+  index: -1
+active_sym/SYM8
+  rotate: false
+  xy: 893, 380
+  size: 131, 130
+  orig: 188, 165
+  offset: 29, 17
+  index: -1
+active_sym/SYM9
+  rotate: true
+  xy: 893, 511
+  size: 133, 131
+  orig: 188, 165
+  offset: 28, 17
+  index: -1
+sym10
+  rotate: true
+  xy: 927, 816
+  size: 208, 85
+  orig: 282, 242
+  offset: 37, 78
+  index: -1
+sym10_effect
+  rotate: true
+  xy: 230, 547
+  size: 257, 139
+  orig: 282, 242
+  offset: 13, 51
+  index: -1
+sym7
+  rotate: true
+  xy: 553, 638
+  size: 184, 155
+  orig: 282, 242
+  offset: 49, 43
+  index: -1
+sym7_effect
+  rotate: false
+  xy: 0, 595
+  size: 229, 209
+  orig: 282, 242
+  offset: 27, 16
+  index: -1
+sym8
+  rotate: true
+  xy: 562, 316
+  size: 135, 181
+  orig: 282, 242
+  offset: 74, 30
+  index: -1
+sym8_effect
+  rotate: true
+  xy: 0, 0
+  size: 189, 239
+  orig: 282, 242
+  offset: 47, 1
+  index: -1
+sym9
+  rotate: false
+  xy: 230, 390
+  size: 164, 156
+  orig: 282, 242
+  offset: 59, 43
+  index: -1
+sym9_effect
+  rotate: true
+  xy: 711, 813
+  size: 211, 215
+  orig: 282, 242
+  offset: 36, 13
+  index: -1
+sym_03_bg
+  rotate: true
+  xy: 562, 452
+  size: 185, 160
+  orig: 282, 242
+  offset: 48, 41
+  index: -1
+sym_03_bg_blur
+  rotate: false
+  xy: 482, 823
+  size: 228, 201
+  orig: 282, 242
+  offset: 27, 20
+  index: -1
+sym_03_chr
+  rotate: true
+  xy: 395, 425
+  size: 190, 166
+  orig: 282, 242
+  offset: 41, 44
+  index: -1
+sym_03_chr_02
+  rotate: true
+  xy: 240, 4
+  size: 191, 164
+  orig: 282, 242
+  offset: 46, 44
+  index: -1
+sym_03_chr_03
+  rotate: true
+  xy: 744, 309
+  size: 150, 139
+  orig: 282, 242
+  offset: 66, 50
+  index: -1
+sym_04_bg
+  rotate: true
+  xy: 405, 50
+  size: 185, 159
+  orig: 282, 242
+  offset: 49, 41
+  index: -1
+sym_04_bg_blur
+  rotate: false
+  xy: 0, 190
+  size: 228, 201
+  orig: 282, 242
+  offset: 27, 20
+  index: -1
+sym_04_chr
+  rotate: true
+  xy: 229, 196
+  size: 193, 165
+  orig: 282, 242
+  offset: 45, 43
+  index: -1
+sym_04_chr_02
+  rotate: true
+  xy: 370, 616
+  size: 201, 182
+  orig: 282, 242
+  offset: 41, 42
+  index: -1
+sym_04_chr_03
+  rotate: true
+  xy: 723, 460
+  size: 184, 169
+  orig: 282, 242
+  offset: 49, 38
+  index: -1
+sym_05_bg
+  rotate: true
+  xy: 395, 236
+  size: 188, 164
+  orig: 282, 242
+  offset: 47, 39
+  index: -1
+sym_05_bg_blur
+  rotate: false
+  xy: 249, 818
+  size: 232, 206
+  orig: 282, 242
+  offset: 25, 18
+  index: -1
+sym_06_bg
+  rotate: true
+  xy: 729, 123
+  size: 185, 161
+  orig: 282, 242
+  offset: 49, 40
+  index: -1
+sym_06_bg_blur
+  rotate: false
+  xy: 0, 392
+  size: 229, 202
+  orig: 282, 242
+  offset: 27, 20
+  index: -1
+sym_06_chr
+  rotate: false
+  xy: 709, 645
+  size: 193, 167
+  orig: 282, 242
+  offset: 45, 43
+  index: -1
+sym_06_chr_02
+  rotate: true
+  xy: 565, 130
+  size: 185, 163
+  orig: 282, 242
+  offset: 49, 43
+  index: -1
+white
+  rotate: false
+  xy: 0, 805
+  size: 248, 219
+  orig: 282, 242
+  offset: 18, 15
+  index: -1
+
+winsymani_012.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sym_05_chr
+  rotate: false
+  xy: 0, 157
+  size: 161, 166
+  orig: 282, 242
+  offset: 61, 42
+  index: -1
+sym_05_chr_02
+  rotate: false
+  xy: 0, 324
+  size: 165, 168
+  orig: 282, 242
+  offset: 59, 43
+  index: -1
+sym_05_chr_03
+  rotate: false
+  xy: 0, 0
+  size: 152, 156
+  orig: 282, 242
+  offset: 65, 43
+  index: -1
+sym_06_chr_03
+  rotate: false
+  xy: 166, 341
+  size: 171, 151
+  orig: 282, 242
+  offset: 56, 48
+  index: -1

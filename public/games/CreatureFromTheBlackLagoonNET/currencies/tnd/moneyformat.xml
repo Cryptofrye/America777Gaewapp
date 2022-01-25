@@ -1,0 +1,11 @@
+<moneyformats>
+   <moneyformat>
+      <dividers thousands="," decimal="."/>
+      <strings>
+         <curchar after="false">TND</curchar>
+         <centchar usecent="false" after="false">c</centchar>
+      </strings>
+      <iso>TND</iso>
+      <decimals>2</decimals>
+   </moneyformat>
+</moneyformats>

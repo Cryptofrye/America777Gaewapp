@@ -1,0 +1,12 @@
+{
+    "date": "2018-05-23",
+    "buildNumber": "5",
+    "sw-client-env": "0.0.5",
+    "sw-core": "4.1.0",
+    "sw-extension-common": "9.1.0-timelineLocalization.1",
+    "sw-extension-mark2": "5.2.0-fix.0.0.1",
+    "sw-font-parser": "0.2.1",
+    "sw-lang-report": "0.0.4",
+    "sw-runtime": "3.3.2-rc.1",
+    "sw-size-report": "0.4.2"
+}

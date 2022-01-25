@@ -1,0 +1,52 @@
+
+fs_background.jpg
+size: 960,540
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+landscape_background
+  rotate: false
+  xy: 0, 0
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+
+fs_background2.jpg
+size: 960,540
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+portrait_background
+  rotate: false
+  xy: 0, 0
+  size: 540, 960
+  orig: 540, 960
+  offset: 0, 0
+  index: -1
+
+fs_background3.png
+size: 749,338
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+land_overlay
+  rotate: false
+  xy: 0, 0
+  size: 749, 338
+  orig: 960, 540
+  offset: 26, 133
+  index: -1
+
+fs_background4.png
+size: 504,238
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+portrait_overlay
+  rotate: false
+  xy: 0, 0
+  size: 504, 238
+  orig: 540, 960
+  offset: 18, 540
+  index: -1

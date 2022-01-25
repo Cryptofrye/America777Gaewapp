@@ -1,0 +1,120 @@
+.splash {
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.splash-holder {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+}
+
+.mobile .splash-holder {
+    -webkit-transform: translate(-50%, -50%) scale(0.5);
+    transform: translate(-50%, -50%) scale(0.5);
+}
+
+.splash-logo {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url(images/logo-spr.png) no-repeat 0 0;
+    background-size: 6800px 200px;
+    -webkit-animation: splash-logo 2.5s steps(32, end) backwards;
+    animation: splash-logo 2.5s steps(32, end) backwards;
+}
+
+.splash-logo .rotating {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 96px;
+    width: 99px;
+    margin-top: -56px;
+    margin-left: -50px;
+    background: url(images/logo-spr.png) no-repeat -6650px -44px;
+    /* 1ms is fix for ASUS zenfone native browser */
+    -webkit-animation: splash-logo-rotate 10s linear 2.5s forwards infinite, show-logo 1ms linear 2499ms forwards;
+    animation: splash-logo-rotate 10s linear 2.5s forwards infinite, show-logo 1ms linear 2499ms forwards;
+    opacity: 0;
+}
+
+.splash-text {
+    overflow: hidden;
+    height: 120px;
+    width: 590px;
+    background: url(images/logotext-spr.png) no-repeat 590px 0;
+    background-size: 7670px 120px;
+    margin-top: -15px;
+    -webkit-animation: splash-text 1.5s steps(13, end) 0.5s forwards;
+    animation: splash-text 1.5s steps(13, end) 0.5s forwards;
+}
+
+@-webkit-keyframes splash-logo {
+    to {
+        background-position: -6400px 0;
+    }
+}
+
+@keyframes splash-logo {
+    to {
+        background-position: -6400px 0;
+    }
+}
+
+@-webkit-keyframes splash-text {
+    to {
+        background-position: -7080px 0;
+    }
+}
+
+@keyframes splash-text {
+    to {
+        background-position: -7080px 0;
+    }
+}
+
+@-webkit-keyframes splash-logo-rotate {
+    from {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    to {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes splash-logo-rotate {
+    from {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+    to {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@-webkit-keyframes show-logo {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes show-logo {
+    to {
+        opacity: 1;
+    }
+}

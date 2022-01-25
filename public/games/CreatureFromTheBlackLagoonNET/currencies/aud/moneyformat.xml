@@ -1,0 +1,11 @@
+<moneyformats>
+   <moneyformat>
+      <dividers thousands="," decimal="."/>
+      <strings>
+         <curchar after="false">AUD</curchar>
+         <centchar usecent="false" after="false">c</centchar>
+      </strings>
+      <iso>AUD</iso>
+      <decimals>2</decimals>
+   </moneyformat>
+</moneyformats>

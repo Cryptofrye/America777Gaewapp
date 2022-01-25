@@ -1,0 +1,506 @@
+.screen canvas {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px; /*2%/3%*/;
+	box-sizing: border-box;
+	box-shadow: 0 0 5px 6px rgba(0, 0, 0, .35);
+	-webkit-tap-highlight-color: transparent;
+}
+.button {
+	position: relative;
+	height: 8.8%;
+	margin: 20% 0 27%;
+	border-radius: 12%/22%;
+	box-shadow: .3vw .3vw .7vw .7vw rgba(0, 0, 0, .35);
+}
+.buttonInner {
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+		justify-content: center;
+	-ms-flex-align: center;
+		align-items: center;
+	width: 100%;
+	height: 100%;
+	color: #555;
+	border-radius: 10%/20%;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #ddd;
+	background: linear-gradient(#fff, #999);
+	white-space: nowrap;
+}.btColumn .buttonInner {
+	-ms-flex-direction: column;
+		flex-direction: column;
+}.buttonDark .buttonInner {
+	color: #fff;
+	background-color: #999;
+	background: linear-gradient(#999, #333);
+}.buttonDisabled {
+    color: #383838;
+}.buttonDisabled .buttonInner {
+	color: #141414;
+	background-color: #363636;
+	background: linear-gradient(#363636, #363636);
+}.buttonNumber {
+	margin-right: 8%;
+}.button::before {
+	line-height: 0;
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	height: 100%;
+	padding: 5%;
+	border-radius: 12%/22%;
+	background-color: #999;
+	background: linear-gradient(#999, #222);
+	transform: translate(-50%, -50%);
+}.buttonDark::before {
+    background-color: #ddd;
+	background: linear-gradient(#fff, #555);
+}.buttonDisabled::before {
+    background-color: #141414;
+	background: linear-gradient(#141414, #141414);
+}
+.buttonBig .buttonInner {
+	border-radius: 18%/18%;
+}.buttonBig::before {
+	border-radius: 19%/19%;
+}
+.buttonTouch .buttonInner {
+	background: linear-gradient(#AEE1F3, #74A7B9);
+}.buttonDarkTouch .buttonInner {
+	background: linear-gradient(#6FA2B4, #396C7E);
+}
+.buttons {
+	position: absolute;
+	top: 0;
+	width: 9.6%;
+	height: 100%
+}
+.buttonsLeft {
+	left: 4%;
+}
+.header {
+	position: relative;
+	background-color: rgba(0, 0, 0, .3);
+	box-shadow: 0 -3px 3px 4px rgba(211, 211, 211, .15)
+}
+.headerBlock {
+	visibility: hidden; 
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	width: 66%;
+	margin: 0 auto;
+	padding: .5% 0;
+	min-height: 2.55em;
+}.headerIcon svg {
+	width: 100%;
+	height: 100%;
+}.headerIconExit {
+	right: 0;
+	transform: translateX(-30%);
+}.headerIconHome {
+	left: 0;
+	transform: translateX(30%);
+}.headerIcon { 
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 2.5%;
+	height: 100%;
+	margin: auto 0;
+	cursor: pointer;
+}.button svg {
+	width: 29%;
+}
+.btNoAutoPlay .buttonInner {
+	color: #fd4526;
+}
+.btFullScreen #FullScreenOn {
+	display: block;
+}.btNoFullScreen #FullScreenOn {
+	display: none;
+}
+.btNoFullScreen #FullScreenOff {
+		display: block;
+}.btFullScreen #FullScreenOff {
+		display: none;
+}
+.btMenu #MenuOn {
+	display: block;
+}.btNoMenu #MenuOn {
+	display: none;
+}
+.btNoMenu #MenuOff {
+	display: block;
+}.btMenu #MenuOff {
+	display: none;
+}
+.btSound #SoundOn {
+	display: block;
+}.btNoSound #SoundOn {
+	display: none;
+}
+.btNoSound #SoundOff {
+	display: block;
+}.btSound #SoundOff {
+	display: none;
+}
+
+.buttonsRight {
+	right: 4%;
+}
+.buttonsRight .button:last-child {
+	margin-bottom: 0;
+}
+.buttonsRight .button {
+	margin: 20% 0 27%;
+}
+.buttonsRight .buttonBig {
+	height: 16.3%;
+	margin: 44% 0;
+}
+.buttonsRightNE .button {
+	margin: 20% 0 38%;
+}
+.buttonsRightNE .buttonBig {
+	margin: 70% 0;
+}
+.app,body {
+	overflow:hidden;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #d3d3d3;
+	background-color: #373737;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAANElEQVQImQXBQREAMAgDsLbswZfDCgJQjiFEsITuDqC7STIzAUQEgFdVkmZGkpnZ7t6dpA+SpwoA7V+h+wAAAABJRU5ErkJggg==);
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+	touch-action: manipulation;
+	-webkit-tap-highlight-color: transparent;
+}
+svg {
+	fill: currentColor;
+}
+.containerLandscape {
+	width: 100vw;
+	height: 56.25vw;
+	max-height: 100vh;
+	max-width: 177.78vh;
+	min-width: 540px;
+	min-height: 300px;
+	margin: auto;
+}.containerPortrait {
+	display: none;
+	margin: auto;
+}
+.main {
+	position: relative;
+	width: 100%;
+	height: 90%;
+	*box-sizing: border-box;
+}
+.screen {
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 66%;
+	box-sizing: border-box;
+	font-size: 0;
+	background: #232323;
+}
+.screenFrame {
+	border: 9px solid #2c2c2c;
+	border-radius: 20px;
+	box-sizing: padding-box;
+	box-shadow: 0 0 3px 3px rgba(0, 0, 0, .3);
+}
+.buttonCircle.button::before {
+    width: 110%;
+    height: 110%;
+    padding: 0;
+    border-radius: 50%;
+}
+.headerIcon.button {
+    box-shadow: .2em .2em .7em .2em rgba(0, 0, 0, .35);
+}
+.buttonCircle {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%
+}
+.buttonCircle .buttonInner {
+    border-radius: 50%;
+}
+.headerIconMobile svg {
+    width: 47%;
+}
+@media only screen and (orientation : portrait) {
+	.button {
+		width: 22vw;
+		height: 8vw;
+	}
+	.button svg {
+		width: 23%;
+	}
+	.buttonCircle.button::before {
+	width: 110%;
+			height: 110%;
+			padding: 0;
+			border-radius: 50%;
+	}.buttonsRowSecondLine .button:first-child {
+			margin-right: 30%;
+	}.buttonsRow .buttonCircle {
+		width: 12vw;
+		height: 12vw;
+	}.buttonInner {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: column;	
+			flex-direction: column;
+		border-radius: 6%/16%;
+	}.buttonNumber {
+		margin-right: 0;
+	}.headerIconMobile svg {
+		width: 47%;
+	}.headerIcon {
+		display: none;
+	}.headerRow {
+		text-align: center;
+	}.headerBlock {
+		visibility: hidden;
+		-ms-flex-direction: column;
+			flex-direction: column;
+		-ms-flex-item-align: center;
+		-ms-grid-row-align: center;
+			align-self: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	}
+	.containerPortrait {
+		display: block;
+	}.containerLandscape {
+		display: none;
+	}
+	.header {
+		height: auto;
+		padding-bottom: 3%;
+	}.headerInner {
+		width: 100%;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+		padding: 0;
+	}
+	.button {
+		position: relative;
+		margin: 0;
+		border-radius: 8%/18%;
+		box-shadow: .7vw .7vw 1.0vw .7vw rgba(0, 0, 0, .35);
+	}
+	.button::before {
+		padding: 4%;
+		border-radius: 8%/18%;
+	}
+	.headerIcon {
+		position: static;
+	}
+	.buttonsRow {
+		padding: 3% 5% 0;
+		display: -ms-flexbox;
+		display: flex;
+  		-ms-flex-pack: justify;
+  			justify-content: space-between
+	}
+	/*.buttonsRow: last-child {
+		padding-bottom: 1%;
+	}*/
+	.buttonsRowFirstLine {
+		padding: 4% 5% 0;
+	}
+	.buttonsRowSecondLine {
+		-ms-flex-pack: center !important;
+ 			justify-content: center !important;
+		padding: 0 0 1%;
+	}
+	.buttonCircle {
+		width: 8vw;
+		height: 8vw;
+		border-radius: 50%;
+	}
+	.buttonCircle .buttonInner {
+		border-radius: 50%;
+	}
+	.headerInner .buttonCircle {
+		margin: 1.5% 0 1.5%;
+	}
+	.buttonBig {
+		z-index: 1;
+ 		position: absolute;
+		left: 0;
+ 		right: 0;
+ 		bottom: 0;
+ 		transform: translateY(50%);
+		width: 20vw !important;
+ 		height: 20vw !important;
+ 		margin: 0 auto;
+	}.screen {
+		width: 95%;
+		position: relative;
+		box-sizing: border-box;
+	}
+	.screenFrame {
+		border: 1.3vw solid #2c2c2c;
+		border-radius: 15px;
+	}
+ 	.main {
+		height: 100%;
+		padding:0 0 2%;
+ 	}
+}
+@media screen and (min-aspect-ratio : 7/10 ) and (orientation : portrait) {
+	.buttonsRow .buttonCircle {
+		width: 12vw;
+		height: 12vw;
+	}
+	.buttonsBlock {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-pack: center;
+			justify-content: center;
+		padding: 5% 0 2%;
+	}
+	.buttonsRowFirstLine {
+		-ms-flex-pack: start;
+			justify-content: flex-start;
+		padding: 0;
+	}
+	.buttonsRowFirstLine .button {
+			width: 12vw;
+			height: 12vw;
+			margin-right: 7vw;
+	}
+	.buttonsRowSecondLine {
+		-ms-flex-pack: start !important;
+			justify-content: flex-start !important;
+		padding: 0;
+	}
+	.buttonsRowSecondLine .button {
+		width: 12vw;
+		height: 12vw;
+	}
+	.buttonsRowSecondLine .button:first-child {
+		margin-right: 7vw;
+	}
+	.button svg {
+		width: 22%;
+	}
+	.headerIconMobile svg {
+		width: 47%;
+	}
+	.button {
+		width: 22vw;
+		height: 8vw;
+	}
+	.buttonCircle {
+		width: 8vw;
+		height: 8vw;
+	}
+}
+@media screen and (min-aspect-ratio : 3/4 ) and (orientation : portrait) {
+	.buttonsRow .buttonCircle {
+		width: 12vw;
+		height: 12vw;
+	}
+	.buttonsBlock {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-pack: center;
+			justify-content: center;
+		padding: 5% 0 2%;
+	}
+	.buttonsRowFirstLine {
+		-ms-flex-pack: start;
+			justify-content: flex-start;
+		padding: 0;
+	}
+	.buttonsRowFirstLine .button {
+			width: 10vw;
+			height: 10vw;
+			margin-right: 9vw;
+	}
+
+	.buttonBig {
+		width: 18vw !important;
+		height: 18vw !important;
+	}
+
+	.buttonsRowSecondLine {
+		-ms-flex-pack: start !important;
+			justify-content: flex-start !important;
+		padding: 0;
+	}
+	.buttonsRowSecondLine .button {
+		width: 10vw;
+		height: 10vw;
+	}
+	.buttonsRowSecondLine .button:first-child {
+		margin-right: 9vw;
+	}
+
+	.button svg {
+		width: 20%;
+	}
+	.headerIconMobile svg {
+		width: 47%;
+	}
+	.button {
+		width: 19vw;
+		height: 6vw;
+	}
+	.buttonCircle {
+		width: 8vw;
+		height: 8vw;
+	}
+}
+.selDenom {
+	outline: none;
+	background-color: #404040EE;
+	color: #d3d3d3;
+	display: inline-block;
+	font: inherit;
+	/* line-height: 1.5em; */
+	padding: 0 1.8em 0 0.3em;
+	margin: 0;      
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	border: 0.07em solid #AAA;
+	border-radius: 0.3em;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+
+	background-repeat: no-repeat;
+	background-image: url("data:image/svg+xml;charset=utf8,%3C?xml version='1.0' encoding='utf-8'?%3E%3C!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Capa_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 35 35' style='enable-background:new 0 0 35 35;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0{fill:%23d3d3d3;} %3C/style%3E%3Ctitle%3EMesa de trabajo 1%3C/title%3E%3Cpolygon class='st0' points='17.4,21.3 13.2,13.8 21.7,13.8 '/%3E%3Crect class='st0' width='1' height='35'/%3E%3C/svg%3E");
+	/*background-size: 2em;*/
+	background-position: calc(100%) center;
+	background-repeat: no-repeat;
+
+}
+select:disabled.selDenom {
+	background-color: #202020EE;
+	color: #535353;
+}

@@ -1,0 +1,11 @@
+<moneyformats>
+   <moneyformat>
+      <dividers thousands="," decimal="."/>
+      <strings>
+         <curchar after="false">CAD</curchar>
+         <centchar usecent="false" after="false">c</centchar>
+      </strings>
+      <iso>CAD</iso>
+      <decimals>2</decimals>
+   </moneyformat>
+</moneyformats>
